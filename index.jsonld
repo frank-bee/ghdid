@@ -1,0 +1,50 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:github:frank-bee",
+  "publicKey": [
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:frank-bee#tYsdMLmShkJkVJoDWlkRZdg-xQdvP98DvzCoZyknjcM",
+      "controller": "did:github:frank-bee",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.1\r\nComment: https://openpgpjs.org\r\n\r\nxk8EXnjGFBMFK4EEAAoCAwS0REv62EM9sjxzTo3D4yopYOAu5x4kfbvMBrv5\r\nQkJJFuWSkd9IUTKIAzLAJkjZh5lxFdu8hl756blsukc2bMifzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsJ4BBATCAAgBQJeeMYUBgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEACgkQdn1x3rNrH11i0QEAhLWcP+Jcf7MSHdwnQ5r9xe9U\r\nrRgXOFg6SJNZ+yh6gbwBAMI/tVpIwA1W2c0SXr4A8E7ptqT2osrVPN5i/PJu\r\nbKCFzlMEXnjGFBIFK4EEAAoCAwRinGrBPoArIbpl3Dh///OoRPYaGjl8kI28\r\nFu4cPmZESAGljSb9dp3/2IR6hy0YBXrcm/oFIm4yiZCsSU1AabRJAwEIB8Jh\r\nBBgTCAAJBQJeeMYUAhsMAAoJEHZ9cd6zax9daqABAIyUgS8HtohR0Qsn06fd\r\ndpRaucpjfvzYlQOG4MUlDw9PAQCEriJcHk9tCcGU3BUTFeNxcOLhbSwjgfBn\r\nWOnyvps78A==\r\n=EBOt\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:frank-bee#LBcXLpAfo07u6N9cX9253yI4tuUSma_jvWbrtqY4Wu0",
+      "controller": "did:github:frank-bee",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.1\r\nComment: https://openpgpjs.org\r\n\r\nxk8EXnjGFRMFK4EEAAoCAwTYp4uOmf9kA/bPBLaSF1M3DTJzWZjVvzLuIWaB\r\n6iPkEaoe/sHvJBwS8+G3xi5Yhhx+SlJTihMgFBUcQzPYgy0VzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsJ4BBATCAAgBQJeeMYVBgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEACgkQw8aQpLZDfpcnKQD/WDPLrHUaKUX2yFJLzl8wPVIL\r\nlT9uvf4u1dNiaCkUYT0A/0KBQ2siQCxyNOT/me2y+FtkRBbko1wilDpILjd4\r\n14t9zlMEXnjGFRIFK4EEAAoCAwQL2uqi/YN/DZjmbBo3k4PqByAwio/pNHWN\r\nukMlXnOwdYgR0agfvcG357ZBNaG0289TEAI1q4GpPm3IhqHiz2bBAwEIB8Jh\r\nBBgTCAAJBQJeeMYVAhsMAAoJEMPGkKS2Q36XFs0BAKRYUKsLGVWj/2yBekCw\r\nCT2oyfJzPw4y+7YbxurZpDhNAQCaiXX61MYIlrseM/UStQc31EJELhxKSsll\r\nPwOpRyiPAw==\r\n=oWqm\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "Ed25519VerificationKey2018",
+      "id": "did:github:frank-bee#YYBlSqIGYptNwn51JUDVX1y1vd2WP_eivt97I91VuBY",
+      "controller": "did:github:frank-bee",
+      "publicKeyBase58": "8u3nSz1hpeEKK81hL2drhv494ad9VpV2unLYc9F3TGcH"
+    }
+  ],
+  "authentication": [],
+  "service": [],
+  "capabilityDelegation": [
+    "did:github:frank-bee#YYBlSqIGYptNwn51JUDVX1y1vd2WP_eivt97I91VuBY"
+  ],
+  "capabilityInvocation": [
+    "did:github:frank-bee#YYBlSqIGYptNwn51JUDVX1y1vd2WP_eivt97I91VuBY"
+  ],
+  "assertionMethod": [
+    "did:github:frank-bee#YYBlSqIGYptNwn51JUDVX1y1vd2WP_eivt97I91VuBY"
+  ],
+  "keyAgreement": [
+    {
+      "id": "did:github:frank-bee#zCB1B8N6w2zXJ1fKFagFGfmqziKHjHTcB19eMgHVbVsisT",
+      "type": "X25519KeyAgreementKey2019",
+      "controller": "did:github:frank-bee",
+      "publicKeyBase58": "BWTQzv7qcn1aZGH8GkhhcgKR51vKtuZWFm4eSQo6mUmF"
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2020-03-23T14:22:13Z",
+    "verificationMethod": "did:github:frank-bee#YYBlSqIGYptNwn51JUDVX1y1vd2WP_eivt97I91VuBY",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GmoVoNhMhWMnfCc9_3nnbXIB_MWNiVaHDlxMoEQhhgv1KTYLpyjL2DcfHeEJeycIfIAQWHoSeudTBcgDeEqKCg"
+  }
+}
